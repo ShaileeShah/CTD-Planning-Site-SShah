@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	left:224px;
+	top:231px;
+	width:142px;
+	height:19px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:115px;
+	top:348px;
+	width:151px;
+	height:20px;
+	z-index:1;
+	text-align: center;
+	color: #FFF;
+	background-color: #333;
+}
+#apDiv3 {
+	position:absolute;
+	left:752px;
+	top:350px;
+	width:148px;
+	height:15px;
+	z-index:2;
+	text-align: center;
+	color: #FFF;
+	background-color: #333;
+}
+#apDiv {
+	position:absolute;
+	left:368px;
+	top:225px;
+	width:176px;
+	height:32px;
+	z-index:1;
+	text-align: center;
+}
+#apDiv4 {	position:absolute;
+	left:101px;
+	top:214px;
+	width:148px;
+	height:17px;
+	z-index:1;
+}
+#apDiv5 {	position:absolute;
+	left:101px;
+	top:214px;
+	width:148px;
+	height:17px;
+	z-index:1;
+}
+#apDiv6 {	position:absolute;
+	left:100px;
+	top:232px;
+	width:150px;
+	height:18px;
+	z-index:1;
+}
+#apDiv7 {
+	position:absolute;
+	left:541px;
+	top:351px;
+	width:151px;
+	height:18px;
+	z-index:3;
+	text-align: center;
+	color: #FFF;
+	background-color: #333;
+}
+body {
+	background-image: url(../BACKGROUNDPHYSICS.png);
+}
+#apDiv {
+	color: #FFF;
+	background-color: #666666;
+}
+.mm {
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	color: #CCC;
+}
+#apDiv8 {
+	position:absolute;
+	left:592px;
+	top:278px;
+	width:209px;
+	height:49px;
+	z-index:1;
+	font-size: 18px;
+	text-align: center;
+	background-color: #666666;
+}
+#apDiv8 p {
+	font-size: 24px;
+	color: #CCC;
+}
+#apDiv9 {
+	position:absolute;
+	left:368px;
+	top:282px;
+	width:176px;
+	height:33px;
+	z-index:2;
+	font-size: 24px;
+	text-align: center;
+	color: #CCC;
+	background-color: #666666;
+}
+#apDiv10 {
+	position:absolute;
+	left:368px;
+	top:339px;
+	width:176px;
+	height:32px;
+	z-index:3;
+	font-size: 24px;
+	text-align: center;
+	color: #CCC;
+	background-color: #666666;
+}
+#apDiv11 {	position:absolute;
+	left:859px;
+	top:224px;
+	width:228px;
+	height:32px;
+	z-index:2;
+	font-size: 24px;
+	text-align: center;
+	color: #CCC;
+	background-color: #666666;
+}
+#apDiv {
+	font-size: 24px;
+	color: #CCC;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="apDiv9">Application </div>
+<div id="apDiv10">Conclusion </div>
+<table width="2010" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="2010"><p class="mm">&nbsp; </p>
+    <p class="mm"><img src="../htmldocs/cimages/A-logo.jpg" width="58" height="57" /> AP Physics II ~ Survival Guide </p>
+    <p class="mm">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td height="520"><!-- TemplateBeginEditable name="Content" -->
+      <p>Content</p>
+      <div id="apDiv">Concept </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <!-- TemplateEndEditable --></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>
