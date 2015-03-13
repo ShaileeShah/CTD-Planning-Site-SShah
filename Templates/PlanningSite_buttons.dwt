@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/PlanningSite_buttons.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <style type="text/css">
 #apDiv1 {
 	position:absolute;
@@ -63,22 +63,6 @@
     </tr>
   </table>
 </div>
-<div id="apDiv2"><!-- InstanceBeginEditable name="Planing Site Content " -->
-    <h2>Planning Subpages</h2>
-    <p>Review: If we look back this website was first created to
-      let the students of AIS taking the AP
-      Psychics B class to be able to go online to study and review
-      through the Kinematics chapter.
-    </p>
-    <p>&nbsp;
-    </p><div style="width: 480px; height: 360px; margin: 10px; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" style="width:480px; height:360px" src="https://www.lucidchart.com/documents/embeddedchart/e62e6488-5f78-4f5e-a9f7-aba21323d166" id="_U65EjaT_hA_"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
-    </p>
-    <p> After a lot of group discussion and consulting with Mr. Lo
-       we decided to use the flowchart above, the one Miffy had designed
-        especially just for the Kinematics chapter.
-    </p>
-    <p>We worked on buttons and learned how to add them to our site
-      using fireworks.</p> 
-<!-- InstanceEndEditable --></div>
+<div id="apDiv2"><!-- TemplateBeginEditable name="Planing Site Content " -->Planing Site Content <!-- TemplateEndEditable --></div>
 </body>
-<!-- InstanceEnd --></html>
+</html>
