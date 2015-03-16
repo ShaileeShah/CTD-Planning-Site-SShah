@@ -6,25 +6,92 @@
 <title>Untitled Document</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+#apDiv2 p {
+	color: #333;
+}
+</style>
 <!-- InstanceEndEditable -->
 <style type="text/css">
 #apDiv1 {
 	position:absolute;
-	left:182px;
-	top:20px;
+	left:181px;
+	top:68px;
 	width:625px;
 	height:94px;
 	z-index:1;
 }
 #apDiv2 {
 	position:absolute;
-	left:69px;
-	top:136px;
+	left:70px;
+	top:180px;
 	width:811px;
 	height:737px;
 	z-index:2;
 }td img {display: block;}td img {display: block;}td img {display: block;}
+#apDiv3 {
+	position:absolute;
+	left:71px;
+	top:15px;
+	width:810px;
+	height:34px;
+	z-index:3;
+	text-align: center;
+	font-size: 36px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-weight: bold;
+}
 </style>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])?args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) { img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr) for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
 </head>
 
 <body>
@@ -47,11 +114,11 @@
     </tr>
     <tr>
       <td rowspan="2"><img name="FW_Buttons_r2_c1" src="htmldocs/images/FW_Buttons_r2_c1.gif" width="7" height="64" border="0" id="FW_Buttons_r2_c1" alt="" /></td>
-      <td><a href="index.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c2','../htmldocs/images/FW_Buttons_r2_c2_s2.gif','../htmldocs/images/FW_Buttons_r2_c2_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c2','../htmldocs/images/FW_Buttons_r2_c2_s3.gif',1);"><img name="FW_Buttons_r2_c2" src="htmldocs/images/FW_Buttons_r2_c2.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c2" alt="" /></a></td>
+      <td><a href="index.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c2','htmldocs/images/FW_Buttons_r2_c2_s2.gif','htmldocs/images/FW_Buttons_r2_c2_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c2','htmldocs/images/FW_Buttons_r2_c2_s3.gif',1);"><img name="FW_Buttons_r2_c2" src="htmldocs/images/FW_Buttons_r2_c2.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c2" alt="" /></a></td>
       <td rowspan="2"><img name="FW_Buttons_r2_c3" src="htmldocs/images/FW_Buttons_r2_c3.gif" width="29" height="64" border="0" id="FW_Buttons_r2_c3" alt="" /></td>
-      <td><a href="Making_My_Homepage.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c4','../htmldocs/images/FW_Buttons_r2_c4_s2.gif','../htmldocs/images/FW_Buttons_r2_c4_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c4','../htmldocs/images/FW_Buttons_r2_c4_s3.gif',1);"><img name="FW_Buttons_r2_c4" src="htmldocs/images/FW_Buttons_r2_c4.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c4" alt="" /></a></td>
+      <td><a href="Making_My_Homepage.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c4','htmldocs/images/FW_Buttons_r2_c4_s2.gif','htmldocs/images/FW_Buttons_r2_c4_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c4','htmldocs/images/FW_Buttons_r2_c4_s3.gif',1);"><img name="FW_Buttons_r2_c4" src="htmldocs/images/FW_Buttons_r2_c4.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c4" alt="" /></a></td>
       <td rowspan="2"><img name="FW_Buttons_r2_c5" src="htmldocs/images/FW_Buttons_r2_c5.gif" width="27" height="64" border="0" id="FW_Buttons_r2_c5" alt="" /></td>
-      <td><a href="Planning_Subpages.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c6','../htmldocs/images/FW_Buttons_r2_c6_s2.gif','../htmldocs/images/FW_Buttons_r2_c6_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c6','../htmldocs/images/FW_Buttons_r2_c6_s3.gif',1);"><img name="FW_Buttons_r2_c6" src="htmldocs/images/FW_Buttons_r2_c6.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c6" alt="" /></a></td>
+      <td><a href="Planning_Subpages.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','FW_Buttons_r2_c6','htmldocs/images/FW_Buttons_r2_c6_s2.gif','htmldocs/images/FW_Buttons_r2_c6_s3.gif',1);" onclick="MM_nbGroup('down','navbar1','FW_Buttons_r2_c6','htmldocs/images/FW_Buttons_r2_c6_s3.gif',1);"><img name="FW_Buttons_r2_c6" src="htmldocs/images/FW_Buttons_r2_c6.gif" width="170" height="48" border="0" id="FW_Buttons_r2_c6" alt="" /></a></td>
       <td rowspan="2"><img name="FW_Buttons_r2_c7" src="htmldocs/images/FW_Buttons_r2_c7.gif" width="7" height="64" border="0" id="FW_Buttons_r2_c7" alt="" /></td>
       <td><img src="htmldocs/images/spacer.gif" width="1" height="48" border="0" alt="" /></td>
     </tr>
@@ -101,12 +168,12 @@
         going to be more lab focused then notes and lectures focused.</p>
         <div style="width: 480px; height: 360px; margin: 10px; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" style="width:480px; height:360px" src="https://www.lucidchart.com/documents/embeddedchart/7558eb08-492e-4c5d-b3a3-efc285056d45" id="JUz7EZ1Sjd7Z"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
       <p>Flowchart 1 (Shailee): this is the flowchart I made, it is very basic there will be a simple homage with just the title logo and three links connecting to the subpages (Video+lab, concept, and conclusion)
-      </p>
+</p>
         <div style="width: 480px; height: 360px; margin: 10px; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" style="width:480px; height:360px" src="https://www.lucidchart.com/documents/embeddedchart/e62e6488-5f78-4f5e-a9f7-aba21323d166" id="_U65EjaT_hA_"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
       <p>Flowchart 2 (Miffy): this is similar to the one I made but instead of having the video on the subpage its on the homepage. Also her subpages are a little different compared to mine, she has concept, application, conclusion.
       </p>
         <div style="width: 480px; height: 360px; margin: 10px; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" style="width:480px; height:360px" src="https://www.lucidchart.com/documents/embeddedchart/bda38ac9-a7cc-4894-9ec6-a78674bb2cc6" id="ZIt_~09Ov5G5"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
-      <p>Flowchart 3 (Shrijith): instead of us all just trying the layout with one topic in mind Shrijith and Christian tried covering all the topics but in less detail with thetis. </p>
+<p>Flowchart 3 (Shrijith): instead of us all just trying the layout with one topic in mind Shrijith and Christian tried covering all the topics but in less detail with thetis. </p>
         <div style="width: 480px; height: 360px; margin: 10px; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" style="width:480px; height:360px" src="https://www.lucidchart.com/documents/embeddedchart/b587d64b-3b32-4cc4-8ed2-db3e429f3cc1" id="rRt_TOM.MKZs"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
       <p>Flowchart 4 (Christian): again instead of just focusing on one topic Christian covered all four topics with his subpages.</p>
       <p><strong>We are going with Miffy's flowchart!</strong>After dicussing which flow chart is the best for the convince of our audiacne
@@ -114,12 +181,8 @@
          were covering to many topics and Mr.Lo said that he wanted to just focus on Kinnematics so we
         let go of their ideas. My flowchat was similar to Miffy's but Mr.Lo liked Miffy's order of how
         things were set up better, so at the end we decided to go with hers.</p>
-      <ul>
-        <li><a href="Making_My_Homepage.html"/></a>Making My Subpages</a></li>
-      </ul>
-      <ul>
-        <li><a href="Planning_Subpages.html"/></a>Planning My Subpages</a></li>
-      </ul>
+      <p>&nbsp;</p>
   <!-- InstanceEndEditable --></div>
+<div id="apDiv3">Shailee's Planning Site </div>
 </body>
 <!-- InstanceEnd --></html>
